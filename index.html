@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side. The basic languages for Front-End Development are HTML, CSS, and JavaScript.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d1e4f91c51.js" crossorigin="anonymous"></script>
@@ -13,27 +14,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css">
-    <title>Document</title>
+    <title>Homepage of Front-End Developer: Paula Fonseca</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" title="Paula Fonseca Homepage"> Paula Fonseca</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html" title="Homepage"
+                >Home</a>
+              <a class="nav-link" title="About Me Page" href="about.html">About Me</a>
+              <a class="nav-link" title="Contact Page" href="about.html#contact">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <div class="hero">
         <p>👋 Hello, my name is</p>
         <h1>Paula Fonseca</h1>
         <h2 class="mb-5">Front-end developer based in France 🇫🇷</h2>
-        <div><a href="#" class="btn btn-branding">Contact me</a></div>
+        <div class="buttons">
+        <a href="about.html#contact" title="Contact Me" class="btn btn-branding">Contact me</a>
+        <a href="about.html#about" title="About Me" class="btn btn-branding">About Me</a>
+        </div>
     </div>
-    <p class="text-center m-5">Some projects I made through the lat year</p>
+
+    <p class="text-center m-5">Here are some of my last year's projects</p>
 
     <div class="container">
         <div class="row mb-5">
             <div class="col d-none d-lg-block">
-                <img src="images/portraits.png" class="img-fluid" alt="portraitsimage">
+                <img src="images/portraits.png" class="img-fluid rounded" alt="portraitsimage" title="Image of my project about portraits">
             </div>
             <div class="col">
                 <div class="project-description">
                     <h2 class="mb-5">Portraits Project</h2>
-                    <p class="mb-5 text-muted">This is a project about portraits and portrais and portrais and portrais and portrais and portrais and portrais and portrais and portrais and portrais and portrais.</p>
-                    <a href class="btn btn-branding-outline">Learn more</a>
+                    <p class="mb-5 text-muted">The first project I created: a webpage about one of my favorite
+                        hobbies during Covid-19 crisis.</p>
+                        <div class="mt-5">
+                            <a
+                              href="https://www.shecodes.io/workshops/shecodes-basics-23e57cdf-f4a8-49c9-97a7-289a0c522fda/projects/694427"
+                              class="btn btn-branding mb-5" title="Access to my website about portraits"
+                              >Launch Portraits</a>
+                          </div>    
                 </div>
             </div>
         </div>
@@ -41,24 +76,36 @@
         <div class="row mb-5">
             <div class="col">
                 <div class="project-description">
-                    <h2 class="mb-5">Weather Project</h2>
-                    <p class="mb-5 text-muted">This is a project about weather and weather and weather and weather and weather and weather and weather and weather and weather and weather and weather and weather.</p>
-                    <a href class="btn btn-branding-outline">Learn more</a>
+                    <h2 class="mb-5">Weather App</h2>
+                    <p class="mb-5 text-muted">The second project of my SheCodes adventure: a App that shows the
+                        current weather in any city around the world.</p>
+
+                        <div class="mt-5">
+                            <a
+                              href="https://www.shecodes.io/workshops/shecodes-plus-f72f1a60-5b8b-4e57-ac6e-6e2f48b1d987/projects/862365"
+                              class="btn btn-branding mb-5" title="Access to my Weather App"
+                              >Launch Weather App</a>
+                          </div>    
                 </div>
             </div>
             <div class="col d-none d-lg-block">
-                <img src="images/Weather App.png" class="img-fluid" alt="weatherappimage">
+                <img src="images/Weather App.png" class="img-fluid rounded" alt="weatherappimage" title="Image of my Weather App">
             </div>
         </div>
+
+
         <div class="row mb-5">
             <div class="col d-none d-lg-block">
-                <img src="images/yogurt.jpg" class="img-fluid" alt="yogurtsimage">
+                <img src="images/yogurt.jpg" class="img-fluid rounded" alt="yogurtsimage" title="Image of a project about yogurts">
             </div>
             <div class="col">
                 <div class="project-description">
                     <h2 class="mb-5">Yogurts Project</h2>
                     <p class="mb-5 text-muted">This is a project about yogurts and yogurts and yogurts and yogurts and yogurts and yogurts and yogurts and yogurts and yogurts and yogurts and yogurts and yogurts.</p>
-                    <a href class="btn btn-branding-outline">Learn more</a>
+                    <div class="mt-5">
+                        <a href="#" class="btn btn-branding mb-5" title="Access to a page about yogurts">Launch Yogurt App</a>
+                    </div>
+                
                 </div>
             </div>
         </div>

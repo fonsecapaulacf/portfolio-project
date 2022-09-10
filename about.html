@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="The main responsibility of the Front-End Developer is the User interface. Simply put, create things that the user sees.">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio, Works and Contact Page for Paula Fonseca</title>
+    <link href="styles/portfolio.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" title="Paula Fonseca Homepage">Paula Fonseca</a>
+        <button 
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" title="Homepage" aria-current="page" href="index.html"
+              >Home</a>
+            <a class="nav-link" title="About Me Page" href="about.html">About Me</a>
+            <a class="nav-link" title="Contact Page" href="about.html#contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<div class="hero mb-5">
+    <h1 id="about">About Me</h1>
+    <h2>Front-end developer from Braga, Portugal</h2>
+    <div class="infos-about">
+      <h2 class="text-muted">
+        My journey from being a physical therapist in a hospital to becoming a
+        front-web developer.
+      </p>
+    </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-4">
+          <img
+            src="images/portraits.png"
+            class="img-fluid p-2 shadow rounded"
+            title="Image of my project about portraits"
+            alt="Portraits Image"
+          />
+        </div>
+
+        <div class="col-sm-4">
+          <img
+            src="images/Weather App.png"
+            class="img-fluid p-2 shadow rounded"
+            title="Image of my Weather App"
+            alt="Weather App Image"
+          />
+        </div>
+
+        <div class="col-sm-4">
+          <img 
+          src="images/yogurt.jpg" 
+          class="img-fluid p-2 shadow rounded"
+          title="Image of a project about yogurts"
+          alt="Yogurts image"
+          />
+        </div>
+
+      </div>
+    </div>
+    <h2 class="mt-5" id="contact">📮 Contact Me</h2>
+    <a href="mailto:fonseca.paula.cf@gmail.com" title="Contact e-mail"
+      >fonseca.paula.cf@gmail.com</a
+    >
+  </body>
 </html>

@@ -5,6 +5,7 @@
     --default-font-family: "Poppins", sans-serif;
 }
 body{
+    margin: 60px auto;
     font-family: var(--default-font-family);
 }
 h1, h2, h3, h4, h5, h6{
@@ -17,13 +18,23 @@ h1{
 }
 h2{
     font-size: 64px;
+    text-align: center;
 }
 p{
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
 }
-
+.buttons{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.buttons a{
+    margin: 20px;
+    padding: 20px 15px;
+}
 .hero{
     background: var(--secondary-color);
     text-align: center;
@@ -52,14 +63,13 @@ p{
     line-height: 27px;
     padding: 15px 30px;
 }
-.btn-branding-outline{
-    color:var(--branding-color);
-    border: 1px solid var(--branding-color);
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-}
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 28px;
+  }
 .project-description{
     padding: 120px 60px;
 }
